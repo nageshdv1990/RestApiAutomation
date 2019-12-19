@@ -52,5 +52,21 @@
             <version>2.3.2</version>
         </dependency>
 
+
+        <!-- https://mvnrepository.com/artifact/com.tngtech.java/junit-dataprovider -->
+        <dependency>
+            <groupId>com.tngtech.java</groupId>
+            <artifactId>junit-dataprovider</artifactId>
+            <version>1.13.1</version>
+            <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.tngtech.java</groupId>
+            <artifactId>junit-dataprovider</artifactId>
+            <version>1.13.1</version>
+            <scope>compile</scope>
+        </dependency>
+
+
     </dependencies>
 </project>
