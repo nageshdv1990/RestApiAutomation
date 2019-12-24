@@ -18,7 +18,7 @@ public class PostExample {
         when().
                 post("https://64bc0f13-4f16-4863-ac35-526cc3267edf.mock.pstmn.io/createProfile").
         then().
-                assertThat().statusCode(200).
+                assertThat().statusCode(201).
                 log().body();
     }
 

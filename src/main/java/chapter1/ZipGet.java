@@ -5,6 +5,8 @@ import org.junit.Test;
 
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
+//import org.testng.annotations.Test;
+
 
 
 public class ZipGet {
