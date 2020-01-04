@@ -14,7 +14,7 @@ package chapter1;
         import static io.restassured.RestAssured.*;
         import static org.hamcrest.Matchers.equalTo;
 
-@RunWith(DataProviderRunner.class)
+        @RunWith(DataProviderRunner.class)
 public class OptimizingTests {
 
     private static RequestSpecification requestSpec;

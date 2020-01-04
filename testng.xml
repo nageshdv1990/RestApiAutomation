@@ -1,24 +1,15 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="All Test Suite">
-    <test verbose="2" preserve-order="false" name="/Users/nagesh/Documents/RestApiAutomation" junit="true">
+    <test verbose="4" preserve-order="false" name="/Users/nagesh/Documents/RestApiAutomation" junit="false">
         <classes>
 
-            <class name="chapter1.OptimizingTests">
+            <class name="chapter1.OptimizingTests"></class>
+            <class name="chapter1.ParameterizedTests"></class>
+            <class name="chapter1.PostExample"></class>
+            <class name="chapter1.TestNg"></class>
+            <class name="chapter1.ZipGet"></class>
 
-            </class>
-            <class name="chapter1.ParameterizedTests">
-
-            </class>
-            <class name="chapter1.PostExample">
-
-            </class>
-            <class name="chapter1.TestNg">
-
-            </class>
-            <class name="chapter1.ZipGet">
-
-            </class>
         </classes>
     </test>
 </suite>

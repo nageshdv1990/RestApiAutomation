@@ -21,9 +21,8 @@ public class ParameterizedTests {
 
     }
 
-
-    @Test
     @UseDataProvider("zipCodesAndPlaces")
+    @Test
     public void parameterizedTests_positiveTests_expected200(String countryCode, String zipCode, String location) {
             given().
                 pathParam("countryCode", countryCode).pathParam("zipCode",zipCode).
